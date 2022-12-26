@@ -44,6 +44,7 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
 
   use "nvim-telescope/telescope.nvim"
+  use "nvim-tree/nvim-tree.lua"
 
   use {
     "nvim-treesitter/nvim-treesitter",
