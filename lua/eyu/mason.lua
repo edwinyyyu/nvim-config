@@ -22,6 +22,7 @@ local servers = {
   "tsserver",
   "html",
   "cssls",
+  "bashls",
   "sumneko_lua"
 }
 

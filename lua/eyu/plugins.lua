@@ -26,6 +26,8 @@ end
 return packer.startup(function(use)
   use "wbthomason/packer.nvim"
 
+  use "nvim-lua/plenary.nvim"
+
   -- Snippets
   use "L3MON4D3/LuaSnip"
 
@@ -40,6 +42,15 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig"
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
+
+  use "nvim-telescope/telescope.nvim"
+
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+
+  use "folke/tokyonight.nvim"
 
   if packer_bootstrap then
     require("packer").sync()
