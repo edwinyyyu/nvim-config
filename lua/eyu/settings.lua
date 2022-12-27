@@ -1,10 +1,10 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+vim.opt.termguicolors = true
+
 vim.opt.mouse = "a"
 vim.opt.clipboard = "unnamedplus"
-
-vim.opt.showtabline = 2
 
 vim.opt.number = true
 
