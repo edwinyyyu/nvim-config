@@ -22,5 +22,3 @@ vim.opt.shiftwidth = 2
 vim.opt.scrolloff = 8
 
 vim.opt.pumheight = 8
-
-vim.cmd [[colorscheme tokyonight-night]]
