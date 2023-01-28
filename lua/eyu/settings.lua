@@ -16,9 +16,6 @@ vim.opt.colorcolumn = "80"
 vim.opt.cursorline = true
 vim.opt.cursorcolumn = true
 
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-
 vim.opt.scrolloff = 8
 
 vim.opt.pumheight = 8
