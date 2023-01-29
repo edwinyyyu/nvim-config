@@ -51,6 +51,8 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
 
+  use "NMAC427/guess-indent.nvim"
+
   use "folke/tokyonight.nvim"
 
   if packer_bootstrap then
