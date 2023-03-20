@@ -20,4 +20,6 @@ map("v", "K", ":m '<-2<CR>gv=gv", opts)
 map("v", "J", ":m '>+1<CR>gv=gv", opts)
 
 -- NvimTree
-map("n", "<Leader>e", ":NvimTreeToggle<CR>", opts)
+if not vim.g.vscode then
+  map("n", "<Leader>e", ":NvimTreeToggle<CR>", opts)
+end
