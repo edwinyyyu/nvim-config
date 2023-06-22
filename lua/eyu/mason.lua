@@ -23,7 +23,7 @@ local servers = {
   "html",
   "cssls",
   "bashls",
-  "sumneko_lua"
+  "lua_ls"
 }
 
 mason_lspconfig.setup({
