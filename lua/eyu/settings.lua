@@ -22,3 +22,5 @@ if not vim.g.vscode then
 end
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.opt.shadafile = "NONE"
