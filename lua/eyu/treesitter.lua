@@ -5,16 +5,20 @@ end
 
 treesitter.setup({
   ensure_installed = {
+    "bash",
     "c",
     "cpp",
-    "python",
+    "css",
+    "go",
+    "html",
     "java",
     "javascript",
+    "lua",
+    "python",
+    "query",
     "typescript",
-    "html",
-    "css",
-    "bash",
-    "lua"
+    "vim",
+    "vimdoc"
   },
   highlight = {
     enable = true

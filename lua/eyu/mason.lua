@@ -16,14 +16,15 @@ end
 mason.setup()
 
 local servers = {
-  "clangd",
-  "pyright",
-  "jdtls",
-  "tsserver",
-  "html",
-  "cssls",
   "bashls",
-  "lua_ls"
+  "clangd",
+  "cssls",
+  "gopls",
+  "html",
+  "jdtls",
+  "lua_ls",
+  "pyright",
+  "tsserver"
 }
 
 mason_lspconfig.setup({
